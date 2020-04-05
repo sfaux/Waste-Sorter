@@ -10,7 +10,7 @@ from starlette.responses import HTMLResponse, JSONResponse
 from starlette.staticfiles import StaticFiles
 
 export_file_url = 'https://drive.google.com/uc?export=download&id=1tbgu_grGPQP9kUzEhkf-lX49X4E-AkEB'
-export_file_name = 'export.pkl'
+export_file_name = 'waste-sorter.pkl'
 
 classes = ['cardboard','glass','metal','paper','plastic','trash']
 path = Path(__file__).parent
